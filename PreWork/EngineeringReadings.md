@@ -120,7 +120,7 @@ Problem-solving skills are almost unanimously the most important qualification t
 
 *Try to move quickly from one question to the next, so that you have the full picture before you jump to any conclusions.*
 
-![why.png](/assets/why.png)
+![why.png](/assets/preworkAssets/why.png)
 
 5. Know When to Stop
     - You'll know that you've revealed the root cause of the problem when asking "why" produces no more useful responses, and you can go no further. An appropriate counter-measure or process change should then become evident.
@@ -146,7 +146,7 @@ Problem-solving skills are almost unanimously the most important qualification t
 - Reframe the challenges and learning process! ... **Is it a codechallenge or a code *game*?**
 
 *It's not a bug, It's a feature*
-![Youtube Reality](/assets/YTreality.png)
+![Youtube Reality](/assets/preworkAssets/YTreality.png)
 
 - The most meaningful success is acomplishing the BEST challenges.
 
