@@ -62,11 +62,19 @@ The user is authenticated and basically logged into our application without leav
 3. What are the three components (the structure) of a JWT signature?
 
     a. Header
+
         i. JSON Object
+
             * "alg" & "typ"
+
     b. Payload
+
         ii. JSON Object
+
             * Claims: User Details, additional metadata
+
     c. Signature
+
         iii. Secret
+        
             * combo of the first two header & payload
