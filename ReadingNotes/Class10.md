@@ -2,7 +2,7 @@
 
 *All notes taken from reading material*
 
-![img](/assets/401-imgs/PDFP.png)
+[image](/assets/401-imgs/PDFP.png)
 
 ## Stacks and Queues
 
