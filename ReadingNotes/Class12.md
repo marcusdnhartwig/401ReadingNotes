@@ -1,49 +1,87 @@
-# Anger
+# Read: Class 12
 
-Why I am angry.. You have abused your possition of power over our lives from the beginning.
+## 
 
-You use your dissagrements as reasons to accuse others of being disrespectful.
+1. What is a Web Socket?
 
-You've have propelled your emotions onto Denise because you've had no one to vent to.
+WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. 
 
-You've emotionally abused Denise and expressed 'sorry' as a means of saying whatever you want to say.
+2. Describe the Web Socket request/response handshake and what happens once the connection is established.
 
-You've said 'Do you want me to kill myself' more times than I care to number.
+The handshake starts with an HTTP request/response, allowing servers to handle HTTP connections as well as WebSocket connections on the same port. Once the connection is established, communication switches to a bidirectional binary protocol which does not conform to the HTTP protocol.
 
-Your emotions are the only ones that get to be valid and your anger is the only anger that gets to be justified.
+3. Web Sockets provide a standardized way for the server to send content to a client without first receiving a -- **First Request** -- from that client.
 
-You refuse to treat Denise as an adult and you refuse to actually support Denise in the ways that matter.
 
-You've gaslite Denise and are manipulating her with your threats when you get backed into a corner.
 
-You are a fake person in your desire to give.
+## Socket.IO Tutorial
 
-Your love is conditional. And apperances are more important to you than goodness.
+[LINK TO ASSET](https://www.tutorialspoint.com/socket.io/socket.io_event_handling.htm)
 
-Your forgiveness is conditional.
+1. What does the event handler io.on() do?
 
-You project your emotions as a means of being manipulitve. And you recognize it and justify it.
+![img](/assets/401-imgs/ioon.png)
 
-You've used my past as an infantryman as a means to cause pain in Denise.
+2. Describe some possible proof of life or proof that the code works as expected
 
-You've projected phisical aggression where I've never expressed such.
+3. What does socket.emit() do?
 
-You've threatened to throw things and hit me.
+## WebSocket vs Socket.io
 
-You nitpick every thing that Denise does.
 
-You feign victimization where you've actually been the abuser.
+1. What is the difference between WebSocket and Socket.IO? (think Git and GitHub, or OAuth and Auth0).
 
-You behave as your 'povission' is a means to act the way that you do.
+**WebSocket** is the communication Protocol that provides bidirectional communication between the Client and the Server over a TCP connection; WebSocket remains open all the time, so they allow real-time data transfer. When clients trigger the request to the server, it does not close the connection on receiving the response; it rather persists and waits for the Client or server to terminate the request.
 
-You act as your 'possition' gives you license to say whatever you want without being stood up to.
+*VS.*
 
-You act as if my protection of Denise is rudeness to you.
+**Socket.IO** is a library that enables real-time and full-duplex communication between the Client and the Web servers. It uses the WebSocket protocol to provide the interface. Generally, it is divided into two parts; both WebSocket vs Socket.io are event-driven libraries.
 
-You are a narcissist who keeps the story about themselves and looks to keep yourself from taking responsibility of their actions.
+    - Client-Side: it is the library that runs inside the browser
+    - Server Side: It is the library for Node.js
 
-The only person alowed to feel anything is you. The only person alowed to throw a tantrum is you and you give yourself license because 'i am sick'.
+![img](/assets/401-imgs/socketcomp.png)
 
-You give us the silent treatment and blame us for your behaviour.
+2. When would you use Socket.IO?
 
-You consistantly express that it's not your role to help us with our home (simple things) because you are not "the help".
+- To handle all the degradation of your technical alternatives to get full-duplex communication in real-time.
+
+- It also handles the various support level and the inconsistencies from the browser.
+
+- It also gives the additional feature room support for basic publish infrastructure and thinks like automatic reconnect.
+
+- Currently, AFAIK is the most used one and easier to help with vanilla web sockets.
+
+3. When would you use WebSockets?
+
+- It provides full-duplex communication, which helps in persisting the connection established between the Client and the Web Server.
+
+- It also lives up to the standards and provides the accuracy and efficiency stream events to and from with negligible latency.
+
+- WebSocket removes the overhead and reduce complexity.
+
+- It makes real-time communication effortless and efficient.
+
+## OSI Model Explained | OSI Animation | Open System Interconnection Model | OSI 7 layers | TechTerms
+
+1. What are a couple of key takeaways from this video?
+
+    - OSI Model = Open System Interconnection Model
+    - **THE MUSIC IS ROCKING**
+
+![img](/assets/401-imgs/OSIMODEL.png)
+
+*I'm linking this video to ref in the future*
+[THIS IS THE LINK](https://www.youtube.com/watch?v=vv4y_uOneC0)
+
+## TCP - Three-way handshake in details
+
+1. Translate the gist of this video to a non-technical friend
+
+    - Transmition Control Protocol
+    - TCP is a reliable and connection- oriented transport protocol.
+    - With TCP, data can be delivered successfully and accurateely.
+    - Before TCP transmits data, it will use three-way handshake to establish a connection.
+    - SYN/connect--> SYN ACK (sync aknowlagement) --> ACK 
+
+![img](/assets/401-imgs/syn-ack.png)
