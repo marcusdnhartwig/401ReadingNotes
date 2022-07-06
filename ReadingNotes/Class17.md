@@ -1,4 +1,4 @@
-# CLASS 16 AWS: Cloud Servers
+# CLASS 17 AWS: Cloud Servers
 
 *All notes taken from reading material*
 
