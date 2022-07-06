@@ -9,6 +9,7 @@
 1. What is an EC2 Instance?
 
 - Amazon *Elastic Compute Cloud* --> Scalable infrastructure on demand.
+- It's an environment *like* NODE
 
 2. Name 2 use cases for EC2.
 
