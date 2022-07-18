@@ -80,3 +80,16 @@ When an app and mobile device register, the push notification service returns a 
 - The messages are also encripted. 
 
 - The Queue system is a buffer for the messages between producers and consumers. 
+
+
+## Rendering Elements
+
+1. Explain what a React Component is to a non-technical friend.
+
+
+
+2. Describe mutability and React Components, specifically, how is the UI updated?
+
+
+
+3. If changes are made to the UI, what does React update?
