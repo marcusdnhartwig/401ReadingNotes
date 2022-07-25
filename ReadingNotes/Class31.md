@@ -1,4 +1,4 @@
-# CLASS 31 Implementation: Hash Tables
+# CLASS 31 Context
 
 *All notes taken from reading material*
 
