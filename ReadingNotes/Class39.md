@@ -14,6 +14,8 @@
 
 2. What does configureStore() do?
 
+  * 
+
 **configureStore():** wraps createStore to provide simplified configuration options and good defaults. It can automatically combine your slice reducers, adds whatever Redux middleware you supply, includes redux-thunk by default, and enables use of the Redux DevTools Extension.
 
 3. How would I use createSlice()?
